@@ -14,6 +14,8 @@ clear
 #        "thumbnail":  div.getElementsByTagName('wix-image')[0].getAttribute('data-src') //video webp thumbnail
 #    }
 #})
+#console.log(JSON.stringify(jsonArray);
+#
 
 $json = Get-Content -Path "c:\ps scripts\vaccine.convention.json" | ConvertFrom-JSON
 
